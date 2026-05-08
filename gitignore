@@ -1,0 +1,24 @@
+# ChromaDB — large binary data, do not commit
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+
+# Generated dataset — can be regenerated
+data/turbofan_faults.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

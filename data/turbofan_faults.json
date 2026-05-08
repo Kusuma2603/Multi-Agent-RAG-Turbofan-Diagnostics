@@ -1,0 +1,861 @@
+[
+  {
+    "id": 1,
+    "fault_type": "Variable Stator Vane Malfunction",
+    "symptoms": [
+      "erratic N1 response",
+      "asymmetric compressor noise"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 786.4,
+      "N1_percent": 81.9,
+      "N2_percent": 97.2,
+      "vibration_mils": 3.52
+    },
+    "severity": "High",
+    "recommended_action": "Download ECU fault history. Perform VSV full-range functional test. If actuator binding found, replace and re-rig per AMM before dispatch.",
+    "notes": "Check for ice ingestion if fault occurred during descent through icing conditions."
+  },
+  {
+    "id": 2,
+    "fault_type": "Fuel System Leak",
+    "symptoms": [
+      "low fuel pressure warning",
+      "visible fuel stain on cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 722.8,
+      "N1_percent": 94.9,
+      "N2_percent": 96.3,
+      "vibration_mils": 1.02
+    },
+    "severity": "Critical",
+    "recommended_action": "Identify leak source \u2014 check fuel manifold, supply lines, and fuel nozzle fittings. Isolate affected circuit. Replace leaking component and pressure-test before return to service.",
+    "notes": "Check fuel nozzle O-rings \u2014 they harden and crack with age."
+  },
+  {
+    "id": 3,
+    "fault_type": "Oil System Degradation",
+    "symptoms": [
+      "oil fumes in cabin bleed air",
+      "oil consumption above limits",
+      "milky oil appearance"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 752.0,
+      "N1_percent": 91.2,
+      "N2_percent": 94.5,
+      "vibration_mils": 1.66
+    },
+    "severity": "Moderate",
+    "recommended_action": "Sample oil and send for spectrometric analysis. Check chip detector for metallic debris. Inspect oil cooler, seals, and scavenge lines. Top up oil within approved limits.",
+    "notes": "Monitor oil quantity trending. Loss >0.3 qt/hr requires investigation."
+  },
+  {
+    "id": 4,
+    "fault_type": "Fuel System Leak",
+    "symptoms": [
+      "unexpected fuel imbalance between tanks",
+      "fuel flow higher than expected",
+      "low fuel pressure warning",
+      "visible fuel stain on cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 715.4,
+      "N1_percent": 88.9,
+      "N2_percent": 94.7,
+      "vibration_mils": 1.14
+    },
+    "severity": "High",
+    "recommended_action": "Ground aircraft immediately. Perform full fuel system leak check per AMM. Do not dispatch with any active fuel leak.",
+    "notes": "Fuel imbalance >500 lbs unexplained by normal use requires investigation."
+  },
+  {
+    "id": 5,
+    "fault_type": "Variable Stator Vane Malfunction",
+    "symptoms": [
+      "erratic N1 response",
+      "EGT anomaly during acceleration",
+      "compressor stall at specific N1 range",
+      "VSV actuator fault code"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 786.5,
+      "N1_percent": 85.7,
+      "N2_percent": 96.0,
+      "vibration_mils": 2.52
+    },
+    "severity": "High",
+    "recommended_action": "Download ECU fault history. Perform VSV full-range functional test. If actuator binding found, replace and re-rig per AMM before dispatch.",
+    "notes": "LVDT signal dropout is a common root cause \u2014 check connector integrity."
+  },
+  {
+    "id": 6,
+    "fault_type": "Turbine Blade Erosion",
+    "symptoms": [
+      "slight smoke from exhaust",
+      "increased EGT at cruise",
+      "higher fuel consumption",
+      "reduced thrust output"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 803.8,
+      "N1_percent": 89.1,
+      "N2_percent": 98.8,
+      "vibration_mils": 4.01
+    },
+    "severity": "Moderate",
+    "recommended_action": "Immediate borescope inspection required. Ground aircraft if blade tip loss is confirmed. HPT blade replacement mandatory before next flight.",
+    "notes": "Common after high-cycle operation in sandy environments."
+  },
+  {
+    "id": 7,
+    "fault_type": "Fuel System Leak",
+    "symptoms": [
+      "unexpected fuel imbalance between tanks",
+      "fuel flow higher than expected"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 723.4,
+      "N1_percent": 90.9,
+      "N2_percent": 95.9,
+      "vibration_mils": 2.05
+    },
+    "severity": "Critical",
+    "recommended_action": "Identify leak source \u2014 check fuel manifold, supply lines, and fuel nozzle fittings. Isolate affected circuit. Replace leaking component and pressure-test before return to service.",
+    "notes": "Inspect fuel manifold joints during every 'C' check as a preventive measure."
+  },
+  {
+    "id": 8,
+    "fault_type": "Compressor Stall",
+    "symptoms": [
+      "N1 fluctuation",
+      "airframe shudder"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 788.7,
+      "N1_percent": 85.0,
+      "N2_percent": 97.5,
+      "vibration_mils": 5.13
+    },
+    "severity": "Critical",
+    "recommended_action": "Reduce thrust immediately. Inspect compressor blades for FOD or damage. Check bleed air valves and variable stator vane schedule. Do not dispatch until root cause found.",
+    "notes": "ECU fault code P0420 or similar may be logged. Pull ACARS data for confirmation."
+  },
+  {
+    "id": 9,
+    "fault_type": "Turbine Blade Erosion",
+    "symptoms": [
+      "slight smoke from exhaust",
+      "decreased N1 response",
+      "increased EGT at cruise"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 831.1,
+      "N1_percent": 91.8,
+      "N2_percent": 98.9,
+      "vibration_mils": 4.14
+    },
+    "severity": "High",
+    "recommended_action": "Immediate borescope inspection required. Ground aircraft if blade tip loss is confirmed. HPT blade replacement mandatory before next flight.",
+    "notes": "Monitor EGT trend data over the last 50 cycles for confirmation."
+  },
+  {
+    "id": 10,
+    "fault_type": "Fuel System Leak",
+    "symptoms": [
+      "fuel flow higher than expected",
+      "unexpected fuel imbalance between tanks",
+      "visible fuel stain on cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 718.7,
+      "N1_percent": 89.9,
+      "N2_percent": 96.0,
+      "vibration_mils": 2.44
+    },
+    "severity": "High",
+    "recommended_action": "Ground aircraft immediately. Perform full fuel system leak check per AMM. Do not dispatch with any active fuel leak.",
+    "notes": "Inspect fuel manifold joints during every 'C' check as a preventive measure."
+  },
+  {
+    "id": 11,
+    "fault_type": "Variable Stator Vane Malfunction",
+    "symptoms": [
+      "asymmetric compressor noise",
+      "compressor stall at specific N1 range",
+      "EGT anomaly during acceleration",
+      "VSV actuator fault code"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 757.8,
+      "N1_percent": 90.6,
+      "N2_percent": 90.0,
+      "vibration_mils": 4.78
+    },
+    "severity": "Moderate",
+    "recommended_action": "Download ECU fault history. Perform VSV full-range functional test. If actuator binding found, replace and re-rig per AMM before dispatch.",
+    "notes": "Check for ice ingestion if fault occurred during descent through icing conditions."
+  },
+  {
+    "id": 12,
+    "fault_type": "Fan Blade Imbalance",
+    "symptoms": [
+      "visible fan blade nick or damage",
+      "unusual noise from fan cowl",
+      "high vibration in fan section",
+      "N1 speed oscillation"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 690.8,
+      "N1_percent": 95.7,
+      "N2_percent": 96.9,
+      "vibration_mils": 7.44
+    },
+    "severity": "High",
+    "recommended_action": "Perform fan trim balance. Inspect all fan blades for nicks, dents, or FOD damage. Check spinner for cracks. Re-balance fan assembly if within limits.",
+    "notes": "FOD strikes are the most common cause \u2014 inspect inlet carefully."
+  },
+  {
+    "id": 13,
+    "fault_type": "Hot Section Deterioration",
+    "symptoms": [
+      "EGT creep over multiple flights",
+      "higher fuel burn at cruise",
+      "EGT margin below minimum",
+      "reduced thrust at fixed throttle"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 805.6,
+      "N1_percent": 91.7,
+      "N2_percent": 95.3,
+      "vibration_mils": 2.76
+    },
+    "severity": "Moderate",
+    "recommended_action": "Perform full hot section borescope. Measure EGT margin against baseline. If margin is <20\u00b0C, schedule engine removal for shop visit.",
+    "notes": "EGT margin is the primary indicator of hot section health."
+  },
+  {
+    "id": 14,
+    "fault_type": "Fan Blade Imbalance",
+    "symptoms": [
+      "airframe vibration at cruise",
+      "high vibration in fan section",
+      "unusual noise from fan cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 716.1,
+      "N1_percent": 90.8,
+      "N2_percent": 96.1,
+      "vibration_mils": 8.89
+    },
+    "severity": "Moderate",
+    "recommended_action": "Perform fan trim balance. Inspect all fan blades for nicks, dents, or FOD damage. Check spinner for cracks. Re-balance fan assembly if within limits.",
+    "notes": "FOD strikes are the most common cause \u2014 inspect inlet carefully."
+  },
+  {
+    "id": 15,
+    "fault_type": "Hot Section Deterioration",
+    "symptoms": [
+      "reduced thrust at fixed throttle",
+      "higher fuel burn at cruise",
+      "EGT creep over multiple flights",
+      "increased TSFC"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 811.6,
+      "N1_percent": 92.3,
+      "N2_percent": 97.0,
+      "vibration_mils": 4.15
+    },
+    "severity": "High",
+    "recommended_action": "Perform full hot section borescope. Measure EGT margin against baseline. If margin is <20\u00b0C, schedule engine removal for shop visit.",
+    "notes": "Review last borescope images for combustor liner condition."
+  },
+  {
+    "id": 16,
+    "fault_type": "Compressor Stall",
+    "symptoms": [
+      "N1 fluctuation",
+      "abnormal compressor noise",
+      "loud bang during acceleration",
+      "EGT spike above limits"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 800.4,
+      "N1_percent": 88.4,
+      "N2_percent": 97.6,
+      "vibration_mils": 5.13
+    },
+    "severity": "Critical",
+    "recommended_action": "Reduce thrust immediately. Inspect compressor blades for FOD or damage. Check bleed air valves and variable stator vane schedule. Do not dispatch until root cause found.",
+    "notes": "ECU fault code P0420 or similar may be logged. Pull ACARS data for confirmation."
+  },
+  {
+    "id": 17,
+    "fault_type": "Variable Stator Vane Malfunction",
+    "symptoms": [
+      "erratic N1 response",
+      "asymmetric compressor noise"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 754.7,
+      "N1_percent": 91.8,
+      "N2_percent": 94.9,
+      "vibration_mils": 2.97
+    },
+    "severity": "High",
+    "recommended_action": "Download ECU fault history. Perform VSV full-range functional test. If actuator binding found, replace and re-rig per AMM before dispatch.",
+    "notes": "LVDT signal dropout is a common root cause \u2014 check connector integrity."
+  },
+  {
+    "id": 18,
+    "fault_type": "Bearing Failure",
+    "symptoms": [
+      "sudden vibration onset",
+      "metal particles in oil sample",
+      "high vibration N1 or N2"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 740.3,
+      "N1_percent": 90.7,
+      "N2_percent": 95.4,
+      "vibration_mils": 6.89
+    },
+    "severity": "High",
+    "recommended_action": "Ground aircraft immediately. Chip detector positive means potential bearing failure. Perform oil spectral analysis. Do not operate engine until bearing inspection is complete.",
+    "notes": "Metallic particle shape indicates failure mode \u2014 flakes suggest spalling, fines suggest wear."
+  },
+  {
+    "id": 19,
+    "fault_type": "Fan Blade Imbalance",
+    "symptoms": [
+      "unusual noise from fan cowl",
+      "airframe vibration at cruise",
+      "visible fan blade nick or damage"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 733.2,
+      "N1_percent": 89.3,
+      "N2_percent": 94.0,
+      "vibration_mils": 6.76
+    },
+    "severity": "High",
+    "recommended_action": "If vibration >8 mils, ground aircraft. Inspect fan blades per AMM limits. Replace damaged blade and perform full fan balance before dispatch.",
+    "notes": "Vibration asymmetry between left and right accelerometers confirms fan source."
+  },
+  {
+    "id": 20,
+    "fault_type": "Bearing Failure",
+    "symptoms": [
+      "metal particles in oil sample",
+      "oil temperature rising"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 745.6,
+      "N1_percent": 94.7,
+      "N2_percent": 97.4,
+      "vibration_mils": 9.95
+    },
+    "severity": "Critical",
+    "recommended_action": "Pull engine for shop visit. Inspect No.1, No.3, and No.4 bearings. Replace all bearings in the affected sump. Flush oil system and replace filter.",
+    "notes": "Chip detector activations should ALWAYS be treated as serious until proven otherwise."
+  },
+  {
+    "id": 21,
+    "fault_type": "Turbine Blade Erosion",
+    "symptoms": [
+      "increased EGT at cruise",
+      "decreased N1 response",
+      "slight smoke from exhaust",
+      "reduced thrust output"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 797.1,
+      "N1_percent": 89.0,
+      "N2_percent": 94.5,
+      "vibration_mils": 5.22
+    },
+    "severity": "Moderate",
+    "recommended_action": "Immediate borescope inspection required. Ground aircraft if blade tip loss is confirmed. HPT blade replacement mandatory before next flight.",
+    "notes": "Common after high-cycle operation in sandy environments."
+  },
+  {
+    "id": 22,
+    "fault_type": "Bearing Failure",
+    "symptoms": [
+      "metal particles in oil sample",
+      "sudden vibration onset",
+      "abnormal noise at idle",
+      "high vibration N1 or N2"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 732.9,
+      "N1_percent": 93.0,
+      "N2_percent": 96.0,
+      "vibration_mils": 10.98
+    },
+    "severity": "Critical",
+    "recommended_action": "Ground aircraft immediately. Chip detector positive means potential bearing failure. Perform oil spectral analysis. Do not operate engine until bearing inspection is complete.",
+    "notes": "Vibration signature analysis (frequency spectrum) can pinpoint which bearing is failing."
+  },
+  {
+    "id": 23,
+    "fault_type": "Oil System Degradation",
+    "symptoms": [
+      "milky oil appearance",
+      "oil consumption above limits"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 747.3,
+      "N1_percent": 91.6,
+      "N2_percent": 94.2,
+      "vibration_mils": 2.43
+    },
+    "severity": "Moderate",
+    "recommended_action": "Sample oil and send for spectrometric analysis. Check chip detector for metallic debris. Inspect oil cooler, seals, and scavenge lines. Top up oil within approved limits.",
+    "notes": "Monitor oil quantity trending. Loss >0.3 qt/hr requires investigation."
+  },
+  {
+    "id": 24,
+    "fault_type": "Hot Section Deterioration",
+    "symptoms": [
+      "higher fuel burn at cruise",
+      "EGT margin below minimum",
+      "increased TSFC",
+      "EGT creep over multiple flights"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 797.8,
+      "N1_percent": 92.6,
+      "N2_percent": 96.5,
+      "vibration_mils": 2.37
+    },
+    "severity": "Moderate",
+    "recommended_action": "Trend monitor EGT over next 10 cycles. If degradation continues, pull engine for HPT and combustor inspection. Check for liner burnthrough or NGV cracking.",
+    "notes": "Review last borescope images for combustor liner condition."
+  },
+  {
+    "id": 25,
+    "fault_type": "Compressor Stall",
+    "symptoms": [
+      "EGT spike above limits",
+      "abnormal compressor noise",
+      "airframe shudder",
+      "temporary thrust loss"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 788.9,
+      "N1_percent": 95.0,
+      "N2_percent": 95.5,
+      "vibration_mils": 3.16
+    },
+    "severity": "Critical",
+    "recommended_action": "Reduce thrust immediately. Inspect compressor blades for FOD or damage. Check bleed air valves and variable stator vane schedule. Do not dispatch until root cause found.",
+    "notes": "Often triggered by FOD ingestion or icing conditions."
+  },
+  {
+    "id": 26,
+    "fault_type": "Turbine Blade Erosion",
+    "symptoms": [
+      "increased EGT at cruise",
+      "reduced thrust output"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 796.3,
+      "N1_percent": 92.2,
+      "N2_percent": 96.8,
+      "vibration_mils": 5.15
+    },
+    "severity": "High",
+    "recommended_action": "Perform borescope inspection of HPT blades. Replace blades exceeding wear limits. Check turbine clearances. Log EGT margin trend before return to service.",
+    "notes": "EGT margin reduction of >15\u00b0C from baseline is a red flag."
+  },
+  {
+    "id": 27,
+    "fault_type": "Hot Section Deterioration",
+    "symptoms": [
+      "increased TSFC",
+      "EGT creep over multiple flights",
+      "higher fuel burn at cruise"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 834.4,
+      "N1_percent": 91.8,
+      "N2_percent": 93.2,
+      "vibration_mils": 2.83
+    },
+    "severity": "Moderate",
+    "recommended_action": "Trend monitor EGT over next 10 cycles. If degradation continues, pull engine for HPT and combustor inspection. Check for liner burnthrough or NGV cracking.",
+    "notes": "EGT margin is the primary indicator of hot section health."
+  },
+  {
+    "id": 28,
+    "fault_type": "Variable Stator Vane Malfunction",
+    "symptoms": [
+      "EGT anomaly during acceleration",
+      "VSV actuator fault code",
+      "asymmetric compressor noise",
+      "erratic N1 response"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 800.5,
+      "N1_percent": 94.5,
+      "N2_percent": 92.2,
+      "vibration_mils": 3.92
+    },
+    "severity": "High",
+    "recommended_action": "Download ECU fault history. Perform VSV full-range functional test. If actuator binding found, replace and re-rig per AMM before dispatch.",
+    "notes": "VSV faults often trigger ACARS EICAS message \u2014 pull full fault history."
+  },
+  {
+    "id": 29,
+    "fault_type": "Bearing Failure",
+    "symptoms": [
+      "sudden vibration onset",
+      "abnormal noise at idle"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 705.7,
+      "N1_percent": 89.4,
+      "N2_percent": 93.1,
+      "vibration_mils": 7.47
+    },
+    "severity": "Critical",
+    "recommended_action": "Ground aircraft immediately. Chip detector positive means potential bearing failure. Perform oil spectral analysis. Do not operate engine until bearing inspection is complete.",
+    "notes": "Metallic particle shape indicates failure mode \u2014 flakes suggest spalling, fines suggest wear."
+  },
+  {
+    "id": 30,
+    "fault_type": "Compressor Stall",
+    "symptoms": [
+      "airframe shudder",
+      "abnormal compressor noise"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 811.7,
+      "N1_percent": 88.6,
+      "N2_percent": 92.0,
+      "vibration_mils": 4.16
+    },
+    "severity": "High",
+    "recommended_action": "Reduce thrust immediately. Inspect compressor blades for FOD or damage. Check bleed air valves and variable stator vane schedule. Do not dispatch until root cause found.",
+    "notes": "ECU fault code P0420 or similar may be logged. Pull ACARS data for confirmation."
+  },
+  {
+    "id": 31,
+    "fault_type": "Hot Section Deterioration",
+    "symptoms": [
+      "EGT creep over multiple flights",
+      "increased TSFC"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 844.6,
+      "N1_percent": 92.2,
+      "N2_percent": 95.0,
+      "vibration_mils": 3.55
+    },
+    "severity": "Moderate",
+    "recommended_action": "Perform full hot section borescope. Measure EGT margin against baseline. If margin is <20\u00b0C, schedule engine removal for shop visit.",
+    "notes": "EGT margin is the primary indicator of hot section health."
+  },
+  {
+    "id": 32,
+    "fault_type": "Fuel System Leak",
+    "symptoms": [
+      "visible fuel stain on cowl",
+      "fuel smell near nacelle",
+      "low fuel pressure warning",
+      "unexpected fuel imbalance between tanks"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 689.2,
+      "N1_percent": 92.5,
+      "N2_percent": 95.3,
+      "vibration_mils": 2.86
+    },
+    "severity": "High",
+    "recommended_action": "Identify leak source \u2014 check fuel manifold, supply lines, and fuel nozzle fittings. Isolate affected circuit. Replace leaking component and pressure-test before return to service.",
+    "notes": "Fuel imbalance >500 lbs unexplained by normal use requires investigation."
+  },
+  {
+    "id": 33,
+    "fault_type": "Bearing Failure",
+    "symptoms": [
+      "oil temperature rising",
+      "abnormal noise at idle",
+      "high vibration N1 or N2"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 748.8,
+      "N1_percent": 89.9,
+      "N2_percent": 97.7,
+      "vibration_mils": 8.91
+    },
+    "severity": "High",
+    "recommended_action": "Pull engine for shop visit. Inspect No.1, No.3, and No.4 bearings. Replace all bearings in the affected sump. Flush oil system and replace filter.",
+    "notes": "Metallic particle shape indicates failure mode \u2014 flakes suggest spalling, fines suggest wear."
+  },
+  {
+    "id": 34,
+    "fault_type": "Oil System Degradation",
+    "symptoms": [
+      "oil fumes in cabin bleed air",
+      "low oil pressure warning",
+      "chip detector warning"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 754.3,
+      "N1_percent": 94.2,
+      "N2_percent": 98.0,
+      "vibration_mils": 2.27
+    },
+    "severity": "Moderate",
+    "recommended_action": "Sample oil and send for spectrometric analysis. Check chip detector for metallic debris. Inspect oil cooler, seals, and scavenge lines. Top up oil within approved limits.",
+    "notes": "Monitor oil quantity trending. Loss >0.3 qt/hr requires investigation."
+  },
+  {
+    "id": 35,
+    "fault_type": "Variable Stator Vane Malfunction",
+    "symptoms": [
+      "erratic N1 response",
+      "EGT anomaly during acceleration"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 780.6,
+      "N1_percent": 94.8,
+      "N2_percent": 90.3,
+      "vibration_mils": 3.79
+    },
+    "severity": "High",
+    "recommended_action": "Download ECU fault history. Perform VSV full-range functional test. If actuator binding found, replace and re-rig per AMM before dispatch.",
+    "notes": "Check for ice ingestion if fault occurred during descent through icing conditions."
+  },
+  {
+    "id": 36,
+    "fault_type": "Fuel System Leak",
+    "symptoms": [
+      "low fuel pressure warning",
+      "fuel smell near nacelle",
+      "fuel flow higher than expected",
+      "visible fuel stain on cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 739.6,
+      "N1_percent": 88.5,
+      "N2_percent": 93.3,
+      "vibration_mils": 2.72
+    },
+    "severity": "Critical",
+    "recommended_action": "Identify leak source \u2014 check fuel manifold, supply lines, and fuel nozzle fittings. Isolate affected circuit. Replace leaking component and pressure-test before return to service.",
+    "notes": "Inspect fuel manifold joints during every 'C' check as a preventive measure."
+  },
+  {
+    "id": 37,
+    "fault_type": "Oil System Degradation",
+    "symptoms": [
+      "low oil pressure warning",
+      "oil fumes in cabin bleed air"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 745.3,
+      "N1_percent": 94.8,
+      "N2_percent": 96.2,
+      "vibration_mils": 1.81
+    },
+    "severity": "Critical",
+    "recommended_action": "Ground aircraft if chip detector shows metal particles. Perform full bearing inspection. Replace oil filter and flush system before return to service.",
+    "notes": "Monitor oil quantity trending. Loss >0.3 qt/hr requires investigation."
+  },
+  {
+    "id": 38,
+    "fault_type": "Compressor Stall",
+    "symptoms": [
+      "EGT spike above limits",
+      "temporary thrust loss"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 804.5,
+      "N1_percent": 92.6,
+      "N2_percent": 96.9,
+      "vibration_mils": 2.96
+    },
+    "severity": "High",
+    "recommended_action": "Ground aircraft. Perform full compressor borescope. Inspect bleed valves and inlet for blockage. Review engine control unit (ECU) fault codes.",
+    "notes": "ECU fault code P0420 or similar may be logged. Pull ACARS data for confirmation."
+  },
+  {
+    "id": 39,
+    "fault_type": "Compressor Stall",
+    "symptoms": [
+      "airframe shudder",
+      "abnormal compressor noise",
+      "EGT spike above limits"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 788.5,
+      "N1_percent": 85.5,
+      "N2_percent": 94.5,
+      "vibration_mils": 3.29
+    },
+    "severity": "Critical",
+    "recommended_action": "Ground aircraft. Perform full compressor borescope. Inspect bleed valves and inlet for blockage. Review engine control unit (ECU) fault codes.",
+    "notes": "Repeated stalls indicate degraded stall margin \u2014 check HPT clearances."
+  },
+  {
+    "id": 40,
+    "fault_type": "Turbine Blade Erosion",
+    "symptoms": [
+      "slight smoke from exhaust",
+      "reduced thrust output",
+      "higher fuel consumption"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 804.9,
+      "N1_percent": 92.7,
+      "N2_percent": 97.5,
+      "vibration_mils": 5.05
+    },
+    "severity": "Moderate",
+    "recommended_action": "Perform borescope inspection of HPT blades. Replace blades exceeding wear limits. Check turbine clearances. Log EGT margin trend before return to service.",
+    "notes": "Monitor EGT trend data over the last 50 cycles for confirmation."
+  },
+  {
+    "id": 41,
+    "fault_type": "Hot Section Deterioration",
+    "symptoms": [
+      "higher fuel burn at cruise",
+      "EGT creep over multiple flights"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 802.6,
+      "N1_percent": 92.5,
+      "N2_percent": 96.9,
+      "vibration_mils": 3.03
+    },
+    "severity": "Moderate",
+    "recommended_action": "Trend monitor EGT over next 10 cycles. If degradation continues, pull engine for HPT and combustor inspection. Check for liner burnthrough or NGV cracking.",
+    "notes": "EGT margin is the primary indicator of hot section health."
+  },
+  {
+    "id": 42,
+    "fault_type": "Fan Blade Imbalance",
+    "symptoms": [
+      "N1 speed oscillation",
+      "high vibration in fan section",
+      "unusual noise from fan cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 683.4,
+      "N1_percent": 92.3,
+      "N2_percent": 94.7,
+      "vibration_mils": 5.83
+    },
+    "severity": "High",
+    "recommended_action": "Perform fan trim balance. Inspect all fan blades for nicks, dents, or FOD damage. Check spinner for cracks. Re-balance fan assembly if within limits.",
+    "notes": "FOD strikes are the most common cause \u2014 inspect inlet carefully."
+  },
+  {
+    "id": 43,
+    "fault_type": "Fan Blade Imbalance",
+    "symptoms": [
+      "visible fan blade nick or damage",
+      "high vibration in fan section",
+      "unusual noise from fan cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 715.7,
+      "N1_percent": 92.3,
+      "N2_percent": 94.1,
+      "vibration_mils": 5.42
+    },
+    "severity": "Moderate",
+    "recommended_action": "Perform fan trim balance. Inspect all fan blades for nicks, dents, or FOD damage. Check spinner for cracks. Re-balance fan assembly if within limits.",
+    "notes": "Vibration asymmetry between left and right accelerometers confirms fan source."
+  },
+  {
+    "id": 44,
+    "fault_type": "Oil System Degradation",
+    "symptoms": [
+      "low oil pressure warning",
+      "milky oil appearance"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 736.6,
+      "N1_percent": 88.4,
+      "N2_percent": 93.4,
+      "vibration_mils": 1.58
+    },
+    "severity": "High",
+    "recommended_action": "Sample oil and send for spectrometric analysis. Check chip detector for metallic debris. Inspect oil cooler, seals, and scavenge lines. Top up oil within approved limits.",
+    "notes": "Monitor oil quantity trending. Loss >0.3 qt/hr requires investigation."
+  },
+  {
+    "id": 45,
+    "fault_type": "Oil System Degradation",
+    "symptoms": [
+      "oil consumption above limits",
+      "chip detector warning"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 749.8,
+      "N1_percent": 91.0,
+      "N2_percent": 94.3,
+      "vibration_mils": 2.85
+    },
+    "severity": "Critical",
+    "recommended_action": "Sample oil and send for spectrometric analysis. Check chip detector for metallic debris. Inspect oil cooler, seals, and scavenge lines. Top up oil within approved limits.",
+    "notes": "Monitor oil quantity trending. Loss >0.3 qt/hr requires investigation."
+  },
+  {
+    "id": 46,
+    "fault_type": "Fan Blade Imbalance",
+    "symptoms": [
+      "N1 speed oscillation",
+      "unusual noise from fan cowl"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 685.0,
+      "N1_percent": 89.1,
+      "N2_percent": 98.7,
+      "vibration_mils": 7.57
+    },
+    "severity": "High",
+    "recommended_action": "Perform fan trim balance. Inspect all fan blades for nicks, dents, or FOD damage. Check spinner for cracks. Re-balance fan assembly if within limits.",
+    "notes": "Vibration asymmetry between left and right accelerometers confirms fan source."
+  },
+  {
+    "id": 47,
+    "fault_type": "Bearing Failure",
+    "symptoms": [
+      "high vibration N1 or N2",
+      "metal particles in oil sample"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 722.5,
+      "N1_percent": 91.9,
+      "N2_percent": 98.5,
+      "vibration_mils": 6.73
+    },
+    "severity": "High",
+    "recommended_action": "Pull engine for shop visit. Inspect No.1, No.3, and No.4 bearings. Replace all bearings in the affected sump. Flush oil system and replace filter.",
+    "notes": "Vibration signature analysis (frequency spectrum) can pinpoint which bearing is failing."
+  },
+  {
+    "id": 48,
+    "fault_type": "Turbine Blade Erosion",
+    "symptoms": [
+      "increased EGT at cruise",
+      "decreased N1 response"
+    ],
+    "sensor_readings": {
+      "EGT_degC": 826.3,
+      "N1_percent": 93.4,
+      "N2_percent": 98.9,
+      "vibration_mils": 5.57
+    },
+    "severity": "Moderate",
+    "recommended_action": "Immediate borescope inspection required. Ground aircraft if blade tip loss is confirmed. HPT blade replacement mandatory before next flight.",
+    "notes": "EGT margin reduction of >15\u00b0C from baseline is a red flag."
+  }
+]
